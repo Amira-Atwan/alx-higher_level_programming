@@ -3,5 +3,5 @@
 if __name__ == "__main__":
     import hidden_4
     for name in dir(hidden_4):
-        if name[0:2] != "_":
-            print("{}".format(name))
+        if name[:2] != "_":
+            print("{:s}".format(name))
